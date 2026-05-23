@@ -2,7 +2,14 @@
 
 Neste repositório eu organizei a documentação do exercício sobre testes em .NET 5, usando como base o tutorial do Renato Groffe e os três repositórios de exemplo.
 
-A ideia foi separar bem cada tipo de teste para ficar fácil de entender o que eu rodei, por que aquele teste existe e qual cenário ele cobre.
+A ideia foi separar bem cada tipo de teste para ficar fácil de entender o que eu rodei, por que aquele teste existe e qual cenário ele cobre. Eu fiz os forks dos projetos, executei os comandos de teste e trouxe os prints para deixar a evidência junto da explicação.
+
+## Fontes usadas
+
+- [Tutorial no Medium](https://renatogroffe.medium.com/testes-de-software-com-net-5-exemplos-de-utiliza%C3%A7%C3%A3o-9b5514119ba2)
+- [Repositório oficial DotNet5-xUnit](https://github.com/renatogroffe/DotNet5-xUnit)
+- [Repositório oficial DotNet5-Moq-xUnit-FluentAssertions](https://github.com/renatogroffe/DotNet5-Moq-xUnit-FluentAssertions)
+- [Repositório oficial ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos](https://github.com/renatogroffe/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos)
 
 ## Forks usados
 
@@ -12,7 +19,9 @@ A ideia foi separar bem cada tipo de teste para ficar fácil de entender o que e
 
 ## Barema
 
-- A revisar na entrega final.
+- (De 0 a 3) - Implementação dos 3 tipos de testes apresentados no artigo (1 ponto para cada tipo de teste implementado)
+- (De 0 a 2) - Explicação clara e objetiva sobre a aplicação dos testes
+- (De 0 a 2) - Organização do arquivo readme, com imagens dos testes e coerência dos textos.
 
 ## Teste de Unidade com xUnit
 
