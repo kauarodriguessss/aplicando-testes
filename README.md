@@ -46,4 +46,17 @@ Print da execução:
 
 ## Teste BDD com SpecFlow
 
-Em andamento.
+No terceiro exemplo eu olhei para o SpecFlow, que escreve os cenários em um formato mais próximo de conversa: `Dado`, `Quando` e `Então`. Achei legal porque dá para entender a regra de juros compostos mesmo sem começar lendo C#.
+
+Fork: [kauarodriguessss/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos](https://github.com/kauarodriguessss/ASPNETCore5-REST_API-xUnit-SpecFlow-Swagger-Docker_JurosCompostos)
+
+Cenários que peguei do próprio repositório:
+
+- `SimulacaoJurosCompostos01`: empréstimo de `R$ 10.000,00`, por `12` meses, com juros de `2,00%` ao mês, esperando `12.682,42`.
+- `SimulacaoJurosCompostos04`: empréstimo de `R$ 10.000,00`, por `2` meses, com juros de `2,00%` ao mês, esperando `10.404,00`.
+
+Na execução, o SpecFlow rodou os 7 cenários. Dois passaram e cinco falharam por diferença de arredondamento, porque o código original calcula com `double` e compara o valor exato no `Assert.Equal`. Eu mantive o resultado assim porque a proposta aqui era executar e documentar o fork do tutorial, não reescrever a solução.
+
+Print da execução:
+
+![Execução do teste BDD com SpecFlow](assets/teste-bdd-specflow.png)
