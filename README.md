@@ -31,7 +31,18 @@ Print da execução:
 
 ## Teste com Mock Objects usando Moq
 
-Em andamento.
+Nesse segundo exemplo eu vi como o teste usa Mock Objects para simular o serviço de consulta de crédito. Em vez de chamar um serviço real, o Moq devolve respostas combinadas para cada CPF, e o Fluent Assertions deixa a validação mais legível.
+
+Fork: [kauarodriguessss/DotNet5-Moq-xUnit-FluentAssertions](https://github.com/kauarodriguessss/DotNet5-Moq-xUnit-FluentAssertions)
+
+Cenários que peguei do próprio repositório:
+
+- Quando o CPF é `123A`, o mock retorna `null` e o sistema entende como `ParametroEnvioInvalido`.
+- Quando o CPF é `82226651209`, o mock retorna uma pendência e o sistema classifica como `Inadimplente`.
+
+Print da execução:
+
+![Execução do teste com Mock Objects usando Moq](assets/teste-mock-moq.png)
 
 ## Teste BDD com SpecFlow
 
