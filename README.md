@@ -36,7 +36,9 @@ Cenários que peguei do próprio repositório:
 
 Print da execução:
 
-![Execução do teste de unidade com xUnit](assets/teste-unidade-xunit.png)
+![Execução do teste de unidade com xUnit](https://raw.githubusercontent.com/kauarodriguessss/aplicando-testes/main/assets/teste-unidade-xunit.png)
+
+[Abrir imagem do teste de unidade](https://raw.githubusercontent.com/kauarodriguessss/aplicando-testes/main/assets/teste-unidade-xunit.png)
 
 ## Teste com Mock Objects usando Moq
 
@@ -51,7 +53,9 @@ Cenários que peguei do próprio repositório:
 
 Print da execução:
 
-![Execução do teste com Mock Objects usando Moq](assets/teste-mock-moq.png)
+![Execução do teste com Mock Objects usando Moq](https://raw.githubusercontent.com/kauarodriguessss/aplicando-testes/main/assets/teste-mock-moq.png)
+
+[Abrir imagem do teste com Mock Objects](https://raw.githubusercontent.com/kauarodriguessss/aplicando-testes/main/assets/teste-mock-moq.png)
 
 ## Teste BDD com SpecFlow
 
@@ -68,4 +72,6 @@ Na execução, o SpecFlow rodou os 7 cenários. Dois passaram e cinco falharam p
 
 Print da execução:
 
-![Execução do teste BDD com SpecFlow](assets/teste-bdd-specflow.png)
+![Execução do teste BDD com SpecFlow](https://raw.githubusercontent.com/kauarodriguessss/aplicando-testes/main/assets/teste-bdd-specflow.png)
+
+[Abrir imagem do teste BDD](https://raw.githubusercontent.com/kauarodriguessss/aplicando-testes/main/assets/teste-bdd-specflow.png)
